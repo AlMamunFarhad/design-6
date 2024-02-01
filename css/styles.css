@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+.nav{
+background-color: #75ab0e;
+}
+.heading{
+    background-color: #75ab0e;
+    color: #fff;
+    padding: 1rem 1rem;
+}
+.top{
+    background-color: #75ab0e;
+    color: #fff;
+    padding: 1rem 1rem;
+}
+/* hero section */
+
+.hero-section{
+    padding: 2rem 0;
+}
+.hero-section h1{
+    font-size: 2.7rem;
+    font-weight: 600;
+}
+
+.hero-section h5{
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+.hero-section h6{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.hero-btn a{
+    background: #F00000;
+    color: #fff;
+    font-weight: bold;
+    padding: .5rem 4rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: .375rem;
+}
+/* section 3 */
+
+.section-3 h6{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+/* section 2 */
+.section-2 {
+    padding: 3rem 0;
+}
+.section-2 p{
+    padding-bottom: 1rem;
+}
+.section-2 h5{
+    padding-bottom: 1.5rem;
+}
+
+/* card */
+.card-section {
+    padding: 4rem 0;
+}
+.card-title h3{
+    color: rgb(17, 144, 205);
+    margin: .5rem;
+    padding: .5rem;
+}
+.card-body h1{
+color: #75ab0e;
+}
+.card-btn a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #000;
+    background-color: #ffd008;
+    padding: .4rem 2rem;
+    border-radius: .375rem;
+}
+
+.card-body .card-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body .card-content span{
+    margin-left: .5rem;
+}
+ .card-content h1{
+    font-size: 4rem;
+}
+
+/* footer */
+footer {
+    background: #f5f5f5;
+}
+footer .col-md-12 p{
+    color: #000 !important;
+}
+footer a{
+    text-decoration: none;
+    font-weight: 500;
+    margin: 1rem .6rem;
+}
+@media screen and (max-width: 1200px){
+    .card-btn a{
+        font-size: 1rem !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-section h1{
+        font-size: 1.8rem;
+    }
+   .hero-btn a{
+        font-size: 1.2rem;
+    }
+    .section4-btn a{
+        font-size: 1rem;
+        line-height: 2.4rem;
+    }
+    .card-btn a{
+        font-size: 1rem !important;
+    }
+    .card-content h1{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 320px){
+    .section4-btn a{
+        font-size: .6rem;
+    }
+}
